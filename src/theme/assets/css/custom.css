@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6 {
+    color: currentColor;
+    font-weight: normal;
+}
+
+/* menu */
+.ant-menu-dark.ant-menu-inline {
+    background-color: #2f4050 !important
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+    background: #2f4050 !important;
+    -webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+    background: #2f4050 !important;
+}
+
+.modal-dialog.imagem {
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 15vh
+}
+
+/* slider */
+
+.icon-wrapper {
+    position: relative;
+    padding: 0px 30px;
+}
+  
+.icon-wrapper .anticon {
+    position: absolute;
+    top: -2px;
+    width: 16px;
+    height: 16px;
+    line-height: 1;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .25);
+}
+  
+.icon-wrapper .anticon:first-child {
+    left: 0;
+}
+  
+.icon-wrapper .anticon:last-child {
+    right: 0;
+}
