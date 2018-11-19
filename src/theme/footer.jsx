@@ -12,10 +12,10 @@ export default class Footer extends Component {
 
             <div className="footer">
                 <div className="pull-right">
-                <a href='https://apresentacao.xyz'><img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/calendar-icon.png" alt="icone" className='pull-right' style={{height: 20}}/> </a>
+                <a target="_blank" href='http://2018.fgsl.net/'><img src="https://fgslassets.pedrogyn.com.br/images/6751a0b7ed53c611c94a047d2f33f773" alt="icone" className='pull-right' style={{height: 20}}/> </a>
                 </div>
                 <div>
-                    <strong> <a href='https://apresentacao.xyz'>XV FGSL</a></strong>
+                    <strong> <a target="_blank" href='http://2018.fgsl.net/'>XV FGSL</a></strong>
                 </div>
             </div>
         )
