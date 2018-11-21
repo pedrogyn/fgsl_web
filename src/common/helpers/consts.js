@@ -11,7 +11,10 @@ if (env.ambient == 'dev') {
 } else {
     consts = {
         API_URL: 'https://fgslapi.pedrogyn.com.br',
+        API_URL_ASSETS: 'https://fgslassets.pedrogyn.com.br',
+
         // API_URL: 'http://localhost:3025',
+        // API_URL_ASSETS: 'http://localhost:3026',
     }
 }
 
